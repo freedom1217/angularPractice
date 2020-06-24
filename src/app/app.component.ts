@@ -31,4 +31,12 @@ export class AppComponent {
   test2Click() {
     this.router.navigate(['test2']);
   }
+
+  test3Click() {
+    this.router.navigate(['test3']);
+  }
+
+  test4Click() {
+    this.router.navigate(['test4']);
+  }
 }

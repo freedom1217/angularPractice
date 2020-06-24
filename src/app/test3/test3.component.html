@@ -1,0 +1,23 @@
+<p>test3 works!</p>
+{{object.name}}, {{object.email}}
+
+<br/><br/>
+<button (click)="btnClick()">click string </button>
+{{string}}
+
+<br/><br/>
+<button (click)="btnClick2()">change boolean </button>
+{{trigger}}
+
+<br/><br/>
+<button (click)="btnClick3()">change number </button>
+{{number}}
+
+<br/><br/>
+<button (click)="btnClick4()">change object </button>
+{{object | json}}
+
+<br/><br/>
+<button (click)="btnClick5()">change array </button>
+{{array | json}}
+{{array.length}}

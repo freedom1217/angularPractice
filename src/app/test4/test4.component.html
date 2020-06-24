@@ -1,0 +1,48 @@
+<p>test4 works!</p>
+
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ul>
+    <li *ngFor="let item of fruitArry">{{item}}</li>
+</ul>
+
+<button (click)="addFruit()">add fruit</button>
+
+<br /><br />
+<button (click)="changeFruit()">change fruit</button>
+
+<br /><br />
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+</table>
+
+<br/><br/>
+<table>
+    <tr>
+        <th>fruit name</th>
+        <th>fruit price</th>
+    </tr>
+    <tr *ngFor="let item of fruitTableArray">
+        <td>{{item.name}}</td>
+        <td>{{item.price}}</td>
+    </tr>
+</table>
+
+<br /><br />
+<button (click)="addTableFruit()">addTableFruit</button>
+
+<br /><br />
+<button (click)="changeTableFruit()">changeTableFruit</button>
